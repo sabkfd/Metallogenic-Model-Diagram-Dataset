@@ -1,0 +1,35 @@
+# PyTorch with CUDA 12.4 support
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# Hugging Face Ecosystem
+transformers==4.57.0
+datasets==4.4.2
+peft==0.13.2
+accelerate==1.10.1
+safetensors==0.6.2
+trl==0.26.2
+
+# Qwen-VL specific utilities
+qwen-vl-utils==0.0.8
+
+# ModelScope for model downloading
+modelscope==1.18.0
+
+# Experiment Tracking
+swanlab==0.6.10
+
+# NLP Evaluation Metrics (Chinese)
+jieba==0.42.1
+rouge-chinese==1.0.3
+nltk==3.9.2
+
+# Core utilities & Image processing
+Pillow==11.3.0
+numpy==2.2.6
+
+# Tokenizer dependencies
+sentencepiece==0.2.0
+protobuf==6.32.1
